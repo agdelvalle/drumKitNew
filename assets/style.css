@@ -1,0 +1,49 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.keys {
+    position: fixed;
+    margin: 20%;
+    /* display: inline-block; */
+    width: 100%;
+}
+
+.key{
+    display: inline-block;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    margin: 15px;
+    padding: 0.5%;
+    transition: all 0.3s;
+}
+
+kbd {
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.sound {
+    /* display: block; */
+    padding: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.playing {
+    box-shadow: 0 0 20px orangered;
+    transform: scale(1);
+}
+
+.ctto{
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: sans-serif;
+}
